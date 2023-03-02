@@ -1,0 +1,205 @@
+a {
+    text-decoration: none;
+}
+.header {
+    // border-bottom: 1px solid #212121;
+    position: relative;
+
+    @media screen and (max-width: 767px) {
+        padding-top: 16px;
+        
+    }
+
+
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+.burg-menu.is-open {
+    
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    
+}
+
+.burg-menu {
+
+    @media screen and (max-width: 767px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: #F4F4F4;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+    
+}
+
+.burg-menu-container {
+    
+    height: 100%;
+    
+    
+        
+}
+
+.burgeropen {
+    @media screen and (max-width: 767px) {
+    display: block;
+    position: absolute;
+    // top: 50%;
+    right: 0;
+    transform: translateY(-25%);
+        }
+}
+
+.closeburgmenu {
+    outline: none;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        color: var(--txt-col);
+        width: 32px;
+        height: 32px;
+        // border-radius: 50%;
+        border: none;
+        background-color: #f4f4f4;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        transition: fill 250ms var(--timing-funcion);
+    
+        // &:hover {
+        //     fill: var(--accent-cl);
+        // }
+}
+
+.burgmenu__navlink {
+    list-style: none;
+    padding: 0;
+@media screen and (max-width: 767px) {
+    
+    margin-top: 125px;
+    
+}
+
+}
+
+
+     
+.burgmenu__navlist:not(:last-child) {
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 28px;
+    }
+}
+
+.burgmenu__link {
+    @media screen and (max-width: 767px) {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+        font-family: "Manrope";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.38;
+        text-align: left;
+        // letter-spacing: 0.02em;
+        color: #111321;
+
+        &:hover {
+                background-color: #4440F6;
+            }
+    }
+        
+}
+
+.burg__icon {
+    fill: currentColor;
+    border-radius: 50%;
+}
+
+.burg__shevron {
+    margin-left: auto;
+}
+
+// .mobmenu__contacts-list {
+//     @media screen and (max-width: 767px) {
+//         margin-bottom: 64px;
+//     }
+// }
+
+// .mobmenu__contacts:not(:last-child) {
+//     @media screen and (max-width: 767px) {
+//     margin-bottom: 32px;
+//     }
+// }
+
+// .mobmenu-contact {
+//     @media screen and (max-width: 767px) {
+//     font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 24px;
+//         line-height: 1.17;
+//         letter-spacing: 0.02em;
+//         color: var(--txt-col);
+//     & :hover,
+//     & :focus {
+//             color: var(--accent-cl);
+//         }
+//     }
+
+        
+// }
+ 
+// .mobmenu__social-list {
+//      @media screen and (max-width: 767px) {
+//         display: flex;
+//         position: relative;
+//         flex-wrap: wrap;
+        
+//      }
+// }
+
+// .mobmenu__social-link:not(:last-child) {
+//     @media screen and (max-width: 767px) {
+//         border-right: 1px solid rgba(33, 33, 33, 0.2);
+//         padding-right: 10px;
+//     }      
+    
+// }
+
+// .mobmenu__social-item {
+
+//     font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 15px;
+//         line-height: 1.2;
+//         letter-spacing: 0.02em;
+//         color: var(--accent-cl);
+
+//     @media screen and (min-width:480px) and (max-width: 767px) {
+//     font-size: 18px;
+//     }
+// }
+
+

@@ -16,113 +16,82 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Web Studio</title>
+    <title>burger menu</title>
   </head>
   <body class="body">
     <header class="header">
-      <div class="container container-nav">
-        <nav class="nav">
-          <a class="link logo-link" href="">
-            <span class="logocolor">Web</span
-            ><span class="logo__dark">Studio</span>
-          </a>
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link blue__link nav--aktive" href="./index.html"
-                >Студія</a
+      <button class="openburgmenu" type="button" burg-menu-open>
+        <svg class="burgeropen" width="40" height="40">
+          <use
+            href="./images/sprite.svg#icon-menu_24px"
+            width="24"
+            height="16"
+          ></use>
+        </svg>
+      </button>
+      <div class="burg-menu" burg-menu>
+        <div class="container burg-menu-container is-open">
+          <button class="closeburgmenu" type="button" burg-menu-close>
+            <svg width="40" height="40">
+              <use href="./images/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="burgmenu__navlink">
+            <li class="burgmenu__navlist">
+              <a href="./index.html" class="burgmenu__link">
+                <svg class="burg__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#icon-home"></use>
+                </svg>
+                Home<svg class="burg__shevron" width="20" height="20">
+            <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg></a
               >
             </li>
-            <li class="nav__item">
-              <a class="nav__link" href="./portfolio.html">Портфоліо</a>
+            <li class="burgmenu__navlist">
+              <a href="#" class="burgmenu__link">
+                <svg class="burg__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#icon-favorite"></use>
+                </svg>
+                Favorite<svg class="burg__shevron" width="20" height="20">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg></a
+              >
             </li>
-            <li><a class="nav__link" href="">Контакти</a></li>
+            <li class="burgmenu__navlist">
+              <a href="#" class="burgmenu__link">
+                <svg class="burg__icon" width="32" height="32">
+                  <use href="./images/sprite.svg#icon-read"></use>
+                </svg>
+                Read<svg class="burg__shevron" width="20" height="20">
+                <use href="./images/sprite.svg#icon-Vector"></use>
+              </svg></a
+              >
+            </li>
           </ul>
-        </nav>
-        <button class="openmobmenu" type="button" data-menu-open>
-          <svg class="burgeropen" width="40" height="40">
-            <use
-              href="./images/sprite.svg#icon-menu_24px"
-              width="24"
-              height="16"
-            ></use>
-          </svg>
-        </button>
-        <div class="mobile-menu" data-menu>
-          <div class="container mobile-menu-container is-open">
-            <button class="closemobmenu" type="button" data-menu-close>
-              <svg width="40" height="40">
-                <use href="./images/sprite.svg#close"></use>
-              </svg>
-            </button>
-            <div class="mobmenu__top">
-              <ul class="mobmenu__navlink">
-                <li class="mobmenu__navlist">
-                  <a href="./index.html" class="mobmenu__link">Студія</a>
-                </li>
-                <li class="mobmenu__navlist">
-                  <a href="./portfolio.html" class="mobmenu__link">Портфоліо</a>
-                </li>
-                <li class="mobmenu__navlist">
-                  <a href="#" class="mobmenu__link">Контакти</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mobmenu__bottom">
-              <ul class="mobmenu__contacts-list">
-                <li class="mobmenu__contacts">
-                  <a href="tel:+380961111111" class="mobmenu-contact"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-                <li class="mobmenu__contacts">
-                  <a href="mailto:info@devstudio.com" class="mobmenu-contact"
-                    >info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-              <ul class="mobmenu__social-list">
-                <li class="mobmenu__social-link">
-                  <a href="#" class="mobmenu__social-item">Instagram</a>
-                </li>
-                <li class="mobmenu__social-link">
-                  <a href="#" class="mobmenu__social-item">Twitter</a>
-                </li>
-                <li class="mobmenu__social-link">
-                  <a href="#" class="mobmenu__social-item">Fasebook</a>
-                </li>
-                <li class="mobmenu__social-link">
-                  <a href="#" class="mobmenu__social-item">LinkedIn</a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <!-- Контактні дані -->
-
-        <ul class="contacts__list">
-          <li class="contacts__item">
-            <a class="contacts__links" href="mailto:info@devstudio.com">
-              <svg class="envelope" width="16" height="18">
-                <use href="./images/sprite.svg#envelope"></use>
-              </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__links" href="tel:+380961111111">
-              <svg class="smartphone" width="16" height="18">
-                <use href="./images/sprite.svg#smartphone"></use>
-              </svg>
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
       </div>
+
+      <!-- <ul class="contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__links" href="mailto:info@devstudio.com">
+            <svg class="envelope" width="16" height="18">
+              <use href="./images/sprite.svg#envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__links" href="tel:+380961111111">
+            <svg class="smartphone" width="16" height="18">
+              <use href="./images/sprite.svg#smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
+        </li>
+      </ul> -->
     </header>
 
-    <!-- Секція HERO -->
-
-    <main>
+    <!-- <main>
       <section class="section-hero">
         <div class="container">
           <h1 class="hero__slogan">Ефективні рішення для вашого бізнесу</h1>
@@ -224,11 +193,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Наші переваги -->
-
-      <section class="section pref">
+    <!-- <section class="section pref">
         <div class="container">
           <h2 class="visually-hidden">наші переваги</h2>
           <ul class="pref__list list">
@@ -281,10 +248,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Чим ми займаємось -->
-      <section class="section work">
+    <!-- <section class="section work">
         <div class="container">
           <h2 class="subtitle">Чим ми займаємося</h2>
           <ul class="work__list list">
@@ -320,11 +286,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Наша команда -->
-
-      <section class="team">
+    <!-- <section class="team">
         <div class="container">
           <h2 class="subtitle">Наша команда</h2>
           <ul class="team__list list">
@@ -686,11 +650,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Постійні клієнти -->
-
-      <section class="section">
+    <!-- <section class="section">
         <div class="container">
           <h2 class="subtitle">Постійні клієнти</h2>
           <ul class="clients">
@@ -739,11 +701,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
-    <!-- Підвал -->
-
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div class="footer__wrapper">
           <a class="link" href="./index.html">
@@ -849,8 +809,8 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
-  <script src="./js/modal.js"></script>
-  <script src="./js/menu.js"></script>
+  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/burgmenu.js"></script>
 </html>
