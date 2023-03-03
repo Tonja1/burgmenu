@@ -92,12 +92,9 @@
       <path fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-linejoin="round" d="M22.631 10.457a4.111 4.111 0 0 0-4.496-.895 4.09 4.09 0 0 0-1.338.895l-.795.795-.795-.795a4.125 4.125 0 0 0-5.836 0 4.125 4.125 0 0 0 0 5.836l6.63 6.63 6.63-6.63a4.111 4.111 0 0 0 .895-4.496 4.116 4.116 0 0 0-.895-1.338v0z" style="stroke:var(--color2, #f4f4f4)"/>
     </symbol>
     <symbol id="icon-home" viewBox="0 0 32 32">
-      <path fill="#686868" d="M0 0h32v32H0V0z" style="fill:var(--color1, #686868)"/>
-      <path fill="#f4f4f4" d="M-40.889-245.333H528V764.445H-40.889V-245.333z" style="fill:var(--color2, #f4f4f4)"/>
-      <path fill="#4440f6" d="M-40.889-23.111H528v78.222H-40.889v-78.222z" style="fill:var(--color3, #4440f6)"/>
-      <path fill="none" stroke="#f4f4f4" stroke-width="1.778" d="M43.556 16c0 15.218-12.337 27.556-27.556 27.556S-11.556 31.219-11.556 16C-11.556.781.781-11.556 16-11.556S43.556.781 43.556 16z" style="stroke:var(--color2, #f4f4f4)"/>
-      <path fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.778" d="m4 12 12-9.333L28 12v14.667a2.668 2.668 0 0 1-2.667 2.667H6.666a2.668 2.668 0 0 1-2.667-2.667V12z" style="stroke:var(--color2, #f4f4f4)"/>
-      <path fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.778" d="M12 29.333V16h8v13.333" style="stroke:var(--color2, #f4f4f4)"/>
+      <path fill="#4440f6" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" style="fill:var(--color1, #4440f6)"/>
+      <path fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-linejoin="round" d="M9.25 13.75 16 8.5l6.75 5.25V22a1.503 1.503 0 0 1-1.5 1.5h-10.5a1.503 1.503 0 0 1-1.5-1.5v-8.25z" style="stroke:var(--color2, #f4f4f4)"/>
+      <path fill="none" stroke="#f4f4f4" stroke-linecap="round" stroke-linejoin="round" d="M13.75 23.5V16h4.5v7.5" style="stroke:var(--color2, #f4f4f4)"/>
     </symbol>
     <symbol id="icon-read" viewBox="0 0 32 32">
       <path fill="#4440f6" d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z" style="fill:var(--color1, #4440f6)"/>
