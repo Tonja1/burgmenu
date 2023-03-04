@@ -90,7 +90,7 @@ a {
         // }
 }
 
-.burgmenu__navlink {
+.burgmenu__navlist {
     list-style: none;
     padding: 0;
 @media screen and (max-width: 767px) {
@@ -100,10 +100,8 @@ a {
 }
 
 }
-
-
      
-.burgmenu__navlist:not(:last-child) {
+.burgmenu__navlink:not(:last-child) {
 
     @media screen and (max-width: 767px) {
         margin-bottom: 28px;
@@ -115,14 +113,8 @@ a {
         display: flex;
         gap: 13px;
         align-items: center;
-        font-family: "Manrope";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.38;
         text-align: left;
-        // letter-spacing: 0.02em;
-        color: #111321;
+                
 
         &:hover {
                 background-color: #4440F6;
@@ -133,75 +125,27 @@ a {
 
 .burg__icon {
    
-border: 1px tomato;
+border: 10px tomato;
+border-radius: 50%;
     
     
+}
+
+.burgmenu__link-text {
+font-family: "Manrope";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #111321;
+    &:hover {
+            color: #F4F4F4;
+        }
 }
 
 .burg__shevron {
     margin-left: auto;
 }
 
-// .mobmenu__contacts-list {
-//     @media screen and (max-width: 767px) {
-//         margin-bottom: 64px;
-//     }
-// }
-
-// .mobmenu__contacts:not(:last-child) {
-//     @media screen and (max-width: 767px) {
-//     margin-bottom: 32px;
-//     }
-// }
-
-// .mobmenu-contact {
-//     @media screen and (max-width: 767px) {
-//     font-family: "Roboto";
-//         font-style: normal;
-//         font-weight: 500;
-//         font-size: 24px;
-//         line-height: 1.17;
-//         letter-spacing: 0.02em;
-//         color: var(--txt-col);
-//     & :hover,
-//     & :focus {
-//             color: var(--accent-cl);
-//         }
-//     }
-
-        
-// }
- 
-// .mobmenu__social-list {
-//      @media screen and (max-width: 767px) {
-//         display: flex;
-//         position: relative;
-//         flex-wrap: wrap;
-        
-//      }
-// }
-
-// .mobmenu__social-link:not(:last-child) {
-//     @media screen and (max-width: 767px) {
-//         border-right: 1px solid rgba(33, 33, 33, 0.2);
-//         padding-right: 10px;
-//     }      
-    
-// }
-
-// .mobmenu__social-item {
-
-//     font-family: "Roboto";
-//         font-style: normal;
-//         font-weight: 500;
-//         font-size: 15px;
-//         line-height: 1.2;
-//         letter-spacing: 0.02em;
-//         color: var(--accent-cl);
-
-//     @media screen and (min-width:480px) and (max-width: 767px) {
-//     font-size: 18px;
-//     }
-// }
 
 

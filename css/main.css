@@ -81,18 +81,18 @@ a {
   transition: fill 250ms var(--timing-funcion);
 }
 
-.burgmenu__navlink {
+.burgmenu__navlist {
   list-style: none;
   padding: 0;
 }
 @media screen and (max-width: 767px) {
-  .burgmenu__navlink {
+  .burgmenu__navlist {
     margin-top: 125px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .burgmenu__navlist:not(:last-child) {
+  .burgmenu__navlink:not(:last-child) {
     margin-bottom: 28px;
   }
 }
@@ -106,13 +106,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: "Manrope";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.38;
     text-align: left;
-    color: #111321;
   }
   .burgmenu__link:hover {
     background-color: #4440F6;
@@ -120,7 +114,20 @@ a {
 }
 
 .burg__icon {
-  border: 1px tomato;
+  border: 10px tomato;
+  border-radius: 50%;
+}
+
+.burgmenu__link-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #111321;
+}
+.burgmenu__link-text:hover {
+  color: #F4F4F4;
 }
 
 .burg__shevron {
