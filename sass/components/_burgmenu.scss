@@ -99,7 +99,8 @@ a {
 &:hover {
     background-color: #4440F6;
     .burg__icon {
-        border-color: #F4F4F4;
+        border: 1px solid #f4f4f4;
+        border-radius: 50%;
     }
 }
         
